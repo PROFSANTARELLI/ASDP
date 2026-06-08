@@ -1,0 +1,57 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="KHR_ztNo6_80n1N9XBxG">
+    <mxGraphModel dx="1414" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <object placeholders="1" c4Name="Cliente" c4Type="usuario do sistema" c4Description="cliente que usa o sistema" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="WbbAFwbAv5ivHb6U83xN-4">
+          <mxCell parent="1" style="html=1;fontSize=11;dashed=0;whiteSpace=wrap;fillColor=#083F75;strokeColor=#06315C;fontColor=#ffffff;shape=mxgraph.c4.person2;align=center;metaEdit=1;points=[[0.5,0,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0]];resizable=0;" vertex="1">
+            <mxGeometry height="180" width="200" x="20" y="180" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="App_Delivery" c4Type="Plataforma Delivery" c4Description="Uma plataforma de entregas" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="WbbAFwbAv5ivHb6U83xN-5">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#1061B0;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#0D5091;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="293.5" y="240" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Pagamentos" c4Type="Gateway de Pagamentos" c4Description="Serviços de Pagamentos" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="WbbAFwbAv5ivHb6U83xN-6">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="580" y="150" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Name="Notificações" c4Type="Serviço de Notificações" c4Description="aciona o serviço de notificações externas" label="&lt;font style=&quot;font-size: 16px&quot;&gt;&lt;b&gt;%c4Name%&lt;/b&gt;&lt;/font&gt;&lt;div&gt;[%c4Type%]&lt;/div&gt;&lt;br&gt;&lt;div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&lt;font color=&quot;#cccccc&quot;&gt;%c4Description%&lt;/font&gt;&lt;/div&gt;" id="WbbAFwbAv5ivHb6U83xN-7">
+          <mxCell parent="1" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#8C8496;fontColor=#ffffff;align=center;arcSize=10;strokeColor=#736782;metaEdit=1;resizable=0;points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];" vertex="1">
+            <mxGeometry height="120" width="240" x="580" y="340" as="geometry" />
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" id="WbbAFwbAv5ivHb6U83xN-9">
+          <mxCell edge="1" parent="1" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <mxPoint x="220" y="300" as="sourcePoint" />
+              <mxPoint x="290" y="300" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <mxCell id="WbbAFwbAv5ivHb6U83xN-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Diagrama de Contexto" vertex="1">
+          <mxGeometry height="30" width="190" x="320" y="40" as="geometry" />
+        </mxCell>
+        <object placeholders="1" c4Type="Relationship" c4Technology="e.g. JSON/HTTP" c4Description="e.g. Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="WbbAFwbAv5ivHb6U83xN-11">
+          <mxCell edge="1" parent="1" source="WbbAFwbAv5ivHb6U83xN-5" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="WbbAFwbAv5ivHb6U83xN-6">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <mxPoint x="350" y="200" as="sourcePoint" />
+              <mxPoint x="560" y="210" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+        <object placeholders="1" c4Type="Relationship" c4Technology="e.g. JSON/HTTP" c4Description="e.g. Makes API calls" label="&lt;div style=&quot;text-align: left&quot;&gt;&lt;div style=&quot;text-align: center&quot;&gt;&lt;b&gt;%c4Description%&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center&quot;&gt;[%c4Technology%]&lt;/div&gt;&lt;/div&gt;" id="WbbAFwbAv5ivHb6U83xN-12">
+          <mxCell edge="1" parent="1" source="WbbAFwbAv5ivHb6U83xN-5" style="endArrow=blockThin;html=1;fontSize=10;fontColor=#404040;strokeWidth=1;endFill=1;strokeColor=#828282;elbow=vertical;metaEdit=1;endSize=14;startSize=14;jumpStyle=arc;jumpSize=16;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.6;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" target="WbbAFwbAv5ivHb6U83xN-7">
+            <mxGeometry relative="1" width="240" as="geometry">
+              <mxPoint x="290" y="270" as="sourcePoint" />
+              <mxPoint x="530" y="270" as="targetPoint" />
+            </mxGeometry>
+          </mxCell>
+        </object>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
