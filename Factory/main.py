@@ -21,6 +21,12 @@ class Boleto:
 
     def processar(self):
         return "Pagamento realizado via Boleto"
+    
+class Paypal:
+
+    def processar(self):
+        return "Pagamento realizado via PayPal"
+    
 
 
 # Factory
@@ -38,6 +44,9 @@ class PagamentoFactory:
 
         elif tipo == "boleto":
             return Boleto()
+        
+        elif tipo == "paypal":
+            return Paypal()
 
         else:
             raise ValueError("Método inválido")
