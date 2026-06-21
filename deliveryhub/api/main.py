@@ -31,3 +31,10 @@ def listar_pedidos():
         resultado = conn.execute(text("SELECT id, cliente, status FROM pedidos"))
         return [{"id": r[0], "cliente": r[1], "status": r[2]} for r in resultado]
 
+@app.get("/arquivos")
+def listar_arquivos():
+   caminho = "../storage/imagens"
+   arquivos = os.listdir(caminho)
+   return {
+       "arquivos": arquivos
+   }
