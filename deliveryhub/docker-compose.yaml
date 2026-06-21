@@ -5,6 +5,10 @@ services:
       - "8000:8000"
     environment:
       DATABASE_URL: postgresql://admin:admin@postgres:5432/deliveryhub
+
+    volumes:
+      - ./storage:/app/storage
+
     depends_on:
       postgres:
         condition: service_healthy
@@ -24,9 +28,6 @@ services:
       interval: 5s
       timeout: 5s
       retries: 5
-
-  # redis:
-  #   será utilizado na Aula 15
 
 volumes:
   pgdata:
