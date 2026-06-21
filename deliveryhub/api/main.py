@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from sqlalchemy import create_engine, text
+import os
 
 app = FastAPI()
 
