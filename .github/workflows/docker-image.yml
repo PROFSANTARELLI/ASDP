@@ -12,13 +12,13 @@ jobs:
      - name: Configurar Python
        uses: actions/setup-python@v5
        with:
-         python-version: "3.12"
+         python-version: "3.13"
      - name: Instalar Dependências
        run: |
-         pip install -r api/requirements.txt
+         pip install -r deliveyhub/api/requirements.txt
      - name: Validar Código
        run: |
-         python -m py_compile api/main.py
+         python -m py_compile deliveyhub/api/main.py
      - name: Build Docker
        run: |
-         docker build -t deliveryhub-api ./api
+         docker build -t deliveryhub-api ./deliveyhub/api
