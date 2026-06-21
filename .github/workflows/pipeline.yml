@@ -1,0 +1,24 @@
+name: DeliveryHub Pipeline
+on:
+ push:
+   branches:
+     - main
+jobs:
+ build:
+   runs-on: ubuntu-latest
+   steps:
+     - name: Checkout
+       uses: actions/checkout@v4
+     - name: Configurar Python
+       uses: actions/setup-python@v5
+       with:
+         python-version: "3.13"
+     - name: Instalar Dependências
+       run: |
+         pip install -r deliveryhub/api/requirements.txt
+     - name: Validar Código
+       run: |
+         python -m py_compile deliveryhub/api/main.py
+     - name: Build Docker
+       run: |
+         docker build -t deliveryhub-api ./deliveryhub/api
