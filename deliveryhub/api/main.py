@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 from sqlalchemy import create_engine, text
-import os
 
 app = FastAPI()
 
@@ -33,7 +32,7 @@ def listar_pedidos():
 
 @app.get("/arquivos")
 def listar_arquivos():
-   #caminho = "/app/storage/imagens"
+   caminho = "/app/storage/imagens"
    arquivos = os.listdir(caminho)
    return {
        "arquivos": arquivos
