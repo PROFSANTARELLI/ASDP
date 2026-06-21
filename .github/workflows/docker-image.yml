@@ -22,3 +22,4 @@ jobs:
      - name: Build Docker
        run: |
          docker build -t deliveryhub-api ./deliveryhub/api
+         
