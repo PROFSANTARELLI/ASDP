@@ -1,0 +1,13 @@
+def atualizar_estoque():
+    print("Estoque atualizado")
+def enviar_email():
+    print("E-mail enviado")
+def registrar_analytics():
+    print("Métrica registrada")
+
+def compra_realizada():
+    atualizar_estoque()
+    enviar_email()
+    registrar_analytics()
+
+compra_realizada()
